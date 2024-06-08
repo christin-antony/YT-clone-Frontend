@@ -1,8 +1,9 @@
 .Mdiv4 {
-  height: 200px;
-  width: 340px;
+  height: 190px;
+  width: 320px;
   margin-bottom: 120px;
-  padding-left: 270px;
+ 
+   
 }
 .Mdiv4 :hover{
   cursor: pointer;
@@ -15,9 +16,9 @@
 }
 .LMdiv4 {
   height: 240px;
-  width: 395px;
+  width: 375px;
   margin-bottom: 130px;
-  padding-left: 100px;
+  
 }
 .V-1 {
   width: 100%;
@@ -27,7 +28,7 @@
   display: block;
 }
 .Mdiv5 {
-  width: 340px;
+  width: 320px;
   height: 100px;
   margin-top: 10px;
   padding: 0%;
@@ -40,7 +41,7 @@
   height: 40px;
 }
 .LMdiv5 {
-  width: 400px;
+  width: 375px;
   margin-top: 10px;
   padding: 0%;
   display: grid;
@@ -133,14 +134,14 @@
 }
 .video-card {
   position:relative;
-  width: 340px;
+  width: 320px;
   height: 190px;
   overflow: hidden;
 }
 .Lvideo-card {
   position: relative;
   height: 235px;
-  width: 400px;
+  width: 375px;
   overflow: hidden;
 }
 .video-card.video {
@@ -239,9 +240,6 @@
 
 .Maindiv {
   margin-top: 130px;
-
- 
- 
 }
 .Maindiv::-webkit-scrollbar {
   width: 0;

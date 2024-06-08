@@ -1,24 +1,23 @@
 .bar{
     position: fixed;
     top: 59px;
-    width: 78%;
+    width: 77.2%;
     height: 60px;
     background: #fff;
     display: flex;
     align-items: center;
     z-index: 8;
-    margin-left: 270px;
+  
 }
 
 .Lbar{
   position: fixed;
   top: 59px;
-  width: 91%;
+  width: 90.9%;
   height: 60px;
   background: #fff;
   display: flex;
   align-items: center;
-  margin-left: 100px;
   z-index: 8;
 }
 
@@ -47,14 +46,13 @@
   
 }
 
-.baroptions:hover{
-    background-color: #8f8d8d;
+.baroptions:hover {
+    background-color: #d7d6d6 !important;
 }
 
 .bar-options:active{
     color: #fff;
-    background: #242424;
-   
+    background: #757575;  
 }
 
 .arrow {

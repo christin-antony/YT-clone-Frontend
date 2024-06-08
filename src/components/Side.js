@@ -27,9 +27,9 @@ const Side = () => {
     <div className="Sdiv0">
       <div className="Sdiv1">
         <div className="Sdiv11">
-          <div className="Sdiv2">
+          <div className="Sdiv22">
           
-            <HomeIcon className="Sicon" />
+            <HomeIcon className="SiconA" />
             <p className="Sp1">Home</p>
           </div>
 

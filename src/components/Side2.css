@@ -6,9 +6,19 @@
     cursor: pointer;
     padding-top: 20px;
     display: grid;
+    place-items: center; 
+}
+.SSdiv11{
+    width:70px;
+    height: 75px;
+    border-radius: 15px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    padding-top: 20px;
+    display: grid;
     place-items: center;
-    
-   
+    background-color: rgb(241, 242, 243);
+
 }
 .SSdiv1:hover
 {
@@ -21,15 +31,13 @@
 .SSdiv0{
     padding: 5px;
     margin-right: 20px;
-    
-}.SSdiv00{
     margin-top: 60px;
-    position:fixed;
-
- 
     
 }
 .SSicon{
     font-size: 22px;
-   
+    color:  #6e6c6c; 
+}
+.SSicon1{
+    font-size: 22px; 
 }

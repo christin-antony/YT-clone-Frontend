@@ -10,7 +10,7 @@ const Header = ({ onIconClick }) => {
     <div className="Hdiv0">
       <nav className="navbar">
         <div className="divlogo">
-          <i className="fa-solid fa-bars btn-1" onClick={onIconClick}></i>
+         <button className="btn-1"> <i className="fa-solid fa-bars " onClick={onIconClick}></i></button> 
           <img src={image1} className="logo" alt="" />
         </div>
         <div className="input">

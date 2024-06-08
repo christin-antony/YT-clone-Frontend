@@ -52,16 +52,16 @@ const Main = ({ isToggled }) => {
         <div className="bar-options-container">
           {filterOptions.map((option, index) => (
             <button
-              key={index}
-              className="baroptions"
-              onClick={() => handleButtonClick(option)}
-              style={{
-                backgroundColor: activeButton === option ? "black" : "#f0f0f0",
-                color: activeButton === option ? "#f0f0f0" : "#3d3d3d" 
-              }}
-            >
-              {option}
-            </button>
+            key={index}
+            className={`baroptions ${activeButton === option ? 'active' : ''}`}
+            onClick={() => handleButtonClick(option)}
+            style={{
+              backgroundColor: activeButton === option ? "black" : "#f0f0f0",
+              color: activeButton === option ? "#f0f0f0" : "#3d3d3d" 
+            }}
+          >
+            {option}
+          </button>
           ))}
         </div>
       </div>

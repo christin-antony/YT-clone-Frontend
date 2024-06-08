@@ -12,8 +12,8 @@ const Side2 = () => {
     return (
         <div className='SSdiv00'>
             <div className='SSdiv0'>
-                <div className='SSdiv1'>
-                    <HomeIcon className='SSicon' />
+                <div className='SSdiv11'>
+                    <HomeIcon className='SSicon1' />
                     <p className='SSp1'>Home</p>
 
 
